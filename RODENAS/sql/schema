@@ -1,0 +1,18 @@
+create table user_records (
+	id INT,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+	gender VARCHAR(50),
+	age INT,
+	email VARCHAR(50),
+	city VARCHAR(50),
+	regDate DATE
+);
+insert into user_records (id, first_name, last_name, gender, age, email, city, regDate) values (1, 'Peggie', 'Sokill', 'Female', 98, 'psokill0@shop-pro.jp', 'Quinta', '2024-03-21');
+insert into user_records (id, first_name, last_name, gender, age, email, city, regDate) values (2, 'Gaspar', 'Thornbarrow', 'Male', 65, 'gthornbarrow1@ehow.com', 'Ifon', '2024-05-07');
+insert into user_records (id, first_name, last_name, gender, age, email, city, regDate) values (3, 'Randy', 'Broun', 'Male', 10, 'rbroun2@huffingtonpost.com', 'Paprotnia', '2023-12-16');
+insert into user_records (id, first_name, last_name, gender, age, email, city, regDate) values (4, 'Dione', 'Nelsey', 'Female', 47, 'dnelsey3@google.ca', 'Bang Pa-in', '2024-06-13');
+insert into user_records (id, first_name, last_name, gender, age, email, city, regDate) values (5, 'Zach', 'Povey', 'Male', 65, 'zpovey4@t.co', 'Vale de Figueira', '2023-10-26');
+insert into user_records (id, first_name, last_name, gender, age, email, city, regDate) values (6, 'Rennie', 'Jakov', 'Female', 58, 'rjakov5@apple.com', 'Los Angeles', '2023-10-15');
+insert into user_records (id, first_name, last_name, gender, age, email, city, regDate) values (7, 'Wenona', 'Kender', 'Female', 21, 'wkender6@webs.com', 'Masis', '2024-07-05');
+insert into user_records (id, first_name, last_name, gender, age, email, city, regDate) values (8, 'Clarice', 'Espie', 'Female', 69, 'cespie7@ftc.gov', 'Balkh', '2023-12-30');
